@@ -1,0 +1,54 @@
+body {
+  font-family: TitilliumRegular, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  background-image: url(images/logback.jpg);
+  margin: 0;
+  padding: 0; }
+  body h1 {
+    color: #3C3131;
+    text-align: center;
+    font-size: 90px; }
+  body form {
+    display: block;
+    position: relative;
+    margin-left: 25%;
+    background-color: #3C3131;
+    background: rgba(0, 0, 0, 0.9);
+    border: 10px ridge #CCC3C3;
+    border-radius: 15px;
+    width: 600px;
+    max-height: 900px; }
+    body form table {
+      max-height: 600px;
+      max-width: 900px; }
+      body form table tr td {
+        max-width: 290px;
+        max-height: 20px;
+        padding: 10px;
+        padding-left: 65px; }
+        body form table tr td input, body form table tr td select, body form table tr td textarea {
+          border: 2px ridge #CCC3C3;
+          border-radius: 5px; }
+        body form table tr td textarea {
+          max-width: 435px; }
+    body form button {
+      display: inline-block;
+      padding: 5px;
+      margin-left: 30px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      width: 90px;
+      height: 40px;
+      border-radius: 5px;
+      font-weight: 50px; }
+    body form button:first-of-type {
+      margin-left: 190px; }
+  body a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3C3131;
+    margin-left: 47%;
+    margin-top: 5%; }
+
+/*# sourceMappingURL=login.css.map */

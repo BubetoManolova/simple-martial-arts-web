@@ -1,0 +1,15 @@
+body {
+  color: white;
+  background-image: url(images/space.jpg); }
+  body img {
+    float: left;
+    margin-right: 3%; }
+  body section {
+    overflow: right; }
+  body a {
+    font-size: 30px;
+    color: #3C3131;
+    margin-left: 47%;
+    margin-top: 5%; }
+
+/*# sourceMappingURL=philosophy.css.map */

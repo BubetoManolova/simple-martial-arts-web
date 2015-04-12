@@ -1,0 +1,65 @@
+body {
+	background-image: url(images/frontw.jpg);
+	font-family: TimesNewRoman;
+	color: white;
+	h1 {
+		font-size: 70px;
+	}
+	nav {
+		background-color: #060606;
+		background: rgba(0, 0, 0, 0.5);
+		border: 15px ridge rgba(0, 0, 0, 0.5);
+		border-radius: 15px;
+		max-width: 400px;
+		height: 300px;
+		margin-left: 5%;
+		ul {
+			li {
+				list-style-type: none;
+				text-align: justify;
+				padding: 10px;
+				padding-top: 25px;
+				padding-left: 15%;
+				li:hover {
+					text-decoration: underline;
+				}
+
+				a {
+					vertical-align: middle;
+					text-decoration: none;
+					color: white;
+					font-size: 46px;
+				}
+			}		
+		}
+	}
+	section {
+			position: absolute;
+			top: 5%;
+			right: 5%;
+			display: inline-block;
+			background-color: #060606;
+			background: rgba(0, 0, 0, 0.5);
+			border: 15px ridge rgba(0, 0, 0, 0.5);
+			width: 280px;
+			height: 45px;
+			border-radius: 70%;
+			a {
+				text-decoration: none;
+				font-size: 35px;
+				font-weight: 10px;
+				line-height: none;
+				padding-left: 25%;			
+				color: white
+			}
+	}
+	footer {
+		font-size: 65px;
+		font-weight: bold;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-left: 30%;
+
+	}
+
+}
