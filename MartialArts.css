@@ -18,17 +18,14 @@ body {
       padding: 10px;
       padding-top: 25px;
       padding-left: 15%; }
-      body nav ul li li:hover {
-        text-decoration: underline; }
       body nav ul li a {
         vertical-align: middle;
         text-decoration: none;
         color: white;
         font-size: 46px; }
+    body nav ul li:hover {
+      text-decoration: underline; }
   body section {
-    position: absolute;
-    top: 5%;
-    right: 5%;
     display: inline-block;
     background-color: #060606;
     background: rgba(0, 0, 0, 0.5);
@@ -43,6 +40,13 @@ body {
       line-height: none;
       padding-left: 25%;
       color: white; }
+  body .left {
+    display: inline-block;
+    width: 60%; }
+  body .right {
+    display: inline-block;
+    width: 40%;
+    float: right; }
   body footer {
     font-size: 65px;
     font-weight: bold;

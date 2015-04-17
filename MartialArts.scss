@@ -14,6 +14,7 @@ body {
 		height: 300px;
 		margin-left: 5%;
 		ul {
+
 			li {
 				list-style-type: none;
 				text-align: justify;
@@ -34,9 +35,9 @@ body {
 		}
 	}
 	section {
-			position: absolute;
-			top: 5%;
-			right: 5%;
+			//position: absolute;
+			// top: 5%;
+			// right: 5%;
 			display: inline-block;
 			background-color: #060606;
 			background: rgba(0, 0, 0, 0.5);
@@ -50,9 +51,21 @@ body {
 				font-weight: 10px;
 				line-height: none;
 				padding-left: 25%;			
-				color: white
+				color: white;
 			}
 	}
+
+	.left {
+		display: inline-block;
+		width: 60%;
+	}
+
+	.right {
+		display: inline-block;
+		width: 40%;
+		float: right;
+	}
+
 	footer {
 		font-size: 65px;
 		font-weight: bold;
