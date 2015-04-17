@@ -21,9 +21,7 @@ body {
 				padding: 10px;
 				padding-top: 25px;
 				padding-left: 15%;
-				li:hover {
-					text-decoration: underline;
-				}
+				
 
 				a {
 					vertical-align: middle;
@@ -31,7 +29,10 @@ body {
 					color: white;
 					font-size: 46px;
 				}
-			}		
+			}
+			li:hover {
+					text-decoration: underline;
+				}		
 		}
 	}
 	section {
